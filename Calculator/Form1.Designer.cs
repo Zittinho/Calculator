@@ -258,7 +258,7 @@
             this.ButtonPoint.Name = "ButtonPoint";
             this.ButtonPoint.Size = new System.Drawing.Size(45, 45);
             this.ButtonPoint.TabIndex = 24;
-            this.ButtonPoint.Text = ".";
+            this.ButtonPoint.Text = ",";
             this.ButtonPoint.UseVisualStyleBackColor = true;
             this.ButtonPoint.Click += new System.EventHandler(this.button_click);
             // 

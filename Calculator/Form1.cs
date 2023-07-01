@@ -25,9 +25,9 @@ namespace Calculator
             }
             operation_pressed = false;
             Button b =(Button)sender;
-            if (b.Text == ".") 
+            if (b.Text == ",") 
             {
-                if (!Result.Text.Contains("."))
+                if (!Result.Text.Contains(","))
                     Result.Text += b.Text;
             }
             else
@@ -98,7 +98,7 @@ namespace Calculator
                 default:
                     break;
             }
-            value=Int32.Parse(Result.Text);
+            value=Double.Parse(Result.Text);
             operation = "";
         }
 
