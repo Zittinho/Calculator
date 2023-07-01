@@ -171,5 +171,13 @@ namespace Calculator
                 
             }
         }
+
+        private void ButtonBack_Click(object sender, EventArgs e)
+        {
+            if (Result.Text.Length > 0)
+            {
+                Result.Text = Result.Text.Substring(0, Result.Text.Length - 1);
+            }
+        }
     }
 }

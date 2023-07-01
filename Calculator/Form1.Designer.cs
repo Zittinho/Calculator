@@ -95,6 +95,7 @@
             this.ButtonBack.TabIndex = 5;
             this.ButtonBack.Text = "<=";
             this.ButtonBack.UseVisualStyleBackColor = true;
+            this.ButtonBack.Click += new System.EventHandler(this.ButtonBack_Click);
             // 
             // ButtonPercent
             // 
